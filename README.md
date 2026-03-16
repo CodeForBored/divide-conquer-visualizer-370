@@ -1,5 +1,3 @@
-# divide-conquer-visualizer-370
-
 # Divide and Conquer Algorithm Visualization
 
 This project visualizes the Divide and Conquer algorithm using Merge Sort.
