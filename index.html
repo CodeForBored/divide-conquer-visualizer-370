@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Merge Sort Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Divide and Conquer Algorithm Visualization</h1>
+<h2>Merge Sort</h2>
+
+<button onclick="generateArray()">Generate Array</button>
+<button onclick="startSort()">Start Visualization</button>
+
+<div id="array"></div>
+
+<div id="info">
+<h3>Divide and Conquer Explanation</h3>
+
+<p><b>Divide:</b> The array is divided into two halves recursively.</p>
+
+<p><b>Conquer:</b> Each half is sorted separately.</p>
+
+<p><b>Combine:</b> The sorted halves are merged together.</p>
+
+<h3>Time Complexity</h3>
+
+<p>Recurrence Relation: T(n) = 2T(n/2) + O(n)</p>
+
+<p>Using Master Theorem:</p>
+
+<p>Time Complexity = O(n log n)</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
